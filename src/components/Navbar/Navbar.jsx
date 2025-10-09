@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiArrowUpRight, FiMenu, FiX } from "react-icons/fi";
+import { FaFileAlt, FaGithub, FaLinkedin, FaRegEnvelope } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,16 +39,18 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${
-        isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
+        isScrolled
+          ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Tarun</span>
+          <span className="text-white"> Omkar </span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Kaushik</span>
+          <span className="text-white"> Yelsange </span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
@@ -71,7 +73,7 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a
-            href="https://github.com/codingmastr"
+            href="https://github.com/OmkarYelsange"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -79,12 +81,20 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+            href="mailto:omkaryelsange1010@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
           >
-            <FaLinkedin size={24} />
+            <FaRegEnvelope size={24} />
+          </a>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-[#8245ec] flex items-center"
+          >
+            <FaFileAlt size={24} />
           </a>
         </div>
 
@@ -122,7 +132,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/codingmastr"
+                href="https://github.com/OmkarYelsange"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -130,7 +140,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                href="https://www.linkedin.com/in/omkar-yelsange"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
