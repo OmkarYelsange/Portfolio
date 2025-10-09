@@ -44,15 +44,14 @@ import dp from "./assets/education_logo/dp.png";
 import abbhsLogo from "./assets/education_logo/abbhs.png";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
+import chat from "./assets/work_logo/chatapp.png";
+import aichatbot from "./assets/work_logo/chatbot.png";
+import airbnb from "./assets/work_logo/airbnb.png";
+import ciso from "./assets/work_logo/ciso.png";
+import portfolio from "./assets/work_logo/portfolio.png";
+import amazon from "./assets/work_logo/amazon.png";
 import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
 import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
 
 export const SkillsInfo = [
   {
@@ -194,7 +193,7 @@ export const projects = [
     title: "Chat WebApp",
     description:
       "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
+    image: chat,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Node.js", "GitHub"],
     github: "https://github.com/OmkarYelsange/Chat-App",
     webapp: "",
@@ -204,7 +203,7 @@ export const projects = [
     title: "AI ChatBot WebApp",
     description:
       "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
+    image: aichatbot,
     tags: [
       "Python",
       "Google API",
@@ -222,7 +221,7 @@ export const projects = [
     title: "AirBnB Clone App",
     description:
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
+    image: airbnb,
     tags: ["Node.js", "API", "HTML", "CSS", "JavaScript", "Express", "GitHub"],
     github: "https://github.com/OmkarYelsange/AirBnB-Clone-App",
     webapp: "",
@@ -232,7 +231,7 @@ export const projects = [
     title: "Ciso Assistent Clone ",
     description:
       "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: npmLogo,
+    image: ciso,
     tags: ["React JS", "HTML", "CSS", "NPM", "Tailwind CSS", "GitHub"],
     github: "https://github.com/OmkarYelsange/Ciso-Assistent-Clone",
     webapp: "",
@@ -252,7 +251,7 @@ export const projects = [
     title: "Portfolio Website",
     description:
       "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    image: webverLogo,
+    image: portfolio,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "Vercel", "GitHub"],
     github: "https://github.com/OmkarYelsange/Portfolio",
     webapp: "",
@@ -262,7 +261,7 @@ export const projects = [
     title: "Amazon Frontend Clone",
     description:
       "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cmLogo,
+    image: amazon,
     tags: ["HTML", "CSS", "GitHub"],
     github: "https://github.com/OmkarYelsange/Amazon-Frontend-Clone",
     webapp: "",
