@@ -46,7 +46,7 @@ const Navbar = () => {
     >
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-lg font-semibold cursor-pointer">
+        <div className="text-xl font-bold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
           <span className="text-white"> Omkar </span>
           <span className="text-[#8245ec]">/</span>
@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-gray-300">
+        <ul className="hidden md:flex space-x-8 text-gray-300 font-medium">
           {menuItems.map((item) => (
             <li
               key={item.id}
@@ -89,7 +89,7 @@ const Navbar = () => {
             <FaRegEnvelope size={24} />
           </a>
           <a
-            href=""
+            href="https://drive.google.com/file/d/1W36-KarwpAuFjHmYnd1qhtJyWwzP3BoK/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec] flex items-center"
@@ -140,12 +140,20 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/omkar-yelsange"
+                href="mailto:omkaryelsange1010@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
               >
-                <FaLinkedin size={24} />
+                <FaRegEnvelope size={24} />
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1W36-KarwpAuFjHmYnd1qhtJyWwzP3BoK/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white "
+              >
+                <FaFileAlt size={24} />
               </a>
             </div>
           </ul>

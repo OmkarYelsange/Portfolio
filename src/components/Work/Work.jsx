@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import { projects } from "../../constants";
+import {
+  FaArrowAltCircleRight,
+  FaGithub,
+  FaRegArrowAltCircleRight,
+} from "react-icons/fa";
+import { FiArrowUpRight, FiExternalLink } from "react-icons/fi";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -19,7 +25,17 @@ const Work = () => {
     >
       {/* Section Title */}
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
+        <div className="flex items-center justify-center mb-4">
+          <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
+          <a
+            href="https://github.com/OmkarYelsange"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-[#8245ec] ml-3"
+          >
+            <FiExternalLink size={28} />
+          </a>
+        </div>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           A showcase of the projects I have worked on, highlighting my skills
@@ -46,7 +62,7 @@ const Work = () => {
               <h3 className="text-2xl font-bold text-white mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
+              <p className="text-gray-500 mb-4 pt-4 line-clamp-3 ">
                 {project.description}
               </p>
               <div className="mb-4">
@@ -89,7 +105,7 @@ const Work = () => {
                 <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
                   {selectedProject.title}
                 </h3>
-                <p className="text-gray-400 mb-6 lg:text-base text-xs">
+                <p className="text-gray-400 mb-6 lg:text-base text-xs text-justify">
                   {selectedProject.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">

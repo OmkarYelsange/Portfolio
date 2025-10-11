@@ -1,11 +1,9 @@
 import React from "react";
 import {
-  FaFacebook,
-  FaTwitter,
   FaLinkedin,
   FaInstagram,
-  FaYoutube,
   FaGithub,
+  FaRegEnvelope,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -48,20 +46,21 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             {
-              icon: <FaTwitter />,
-              link: "https://twitter.com/CodingMaster6?s=09",
+              icon: <FaRegEnvelope />,
+              link: "mailto:omkaryelsange1010@gmail.com",
             },
             {
               icon: <FaLinkedin />,
               link: "https://www.linkedin.com/in/omkar-yelsange",
             },
+
+            {
+              icon: <FaGithub />,
+              link: "https://www.youtube.com/OmkarYelsange",
+            },
             {
               icon: <FaInstagram />,
               link: "https://www.instagram.com/omkar._2_0/",
-            },
-            {
-              icon: <FaGithub />,
-              link: "https://www.youtube.com/codingmasteryt",
             },
           ].map((item, index) => (
             <a

@@ -73,7 +73,9 @@ const Experience = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-400">{experience.desc}</p>
+              <p className="mt-4 text-gray-400 text-justify">
+                {experience.desc}
+              </p>
               <div className="mt-4">
                 <h5 className="font-medium text-white">Skills:</h5>
                 <ul className="flex flex-wrap mt-2">
