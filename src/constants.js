@@ -192,6 +192,16 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "React E-Commerce Website",
+    description:
+      "Building an E-Commerce Website using React and external APIs ",
+    image: ecommerceLogo,
+    tags: ["React JS", "JavaScript", "HTML", "CSS", "Vercel", "API", "GitHub"],
+    github: "https://github.com/OmkarYelsange/React-Project-E-Commerce-Website",
+    webapp: "https://react-project-e-commerce-website.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Chat WebApp",
     description:
       "Built a real-time messaging app with secure authentication, live chat, and active user presence.",
@@ -210,7 +220,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 1,
+    id: 2,
     title: "DeepSeek Clone",
     description:
       "Developed an AI-powered chatbot by integrating Google Gemini API for intelligent, context-aware responses.",
@@ -226,10 +236,10 @@ export const projects = [
       "GitHub",
     ],
     github: "https://github.com/OmkarYelsange/Amazon-Frontend-Clone",
-    webapp: "",
+    webapp: "https://deep-seek-clone-coral.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "AirBnB Clone App",
     description:
       "Currently developing a full-stack web application replicating Airbnb core features (property listings, booking, authentication).",
@@ -239,7 +249,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "Ciso Assistent Clone ",
     description: "Building a CURD App using React and Django.",
     image: ciso,
@@ -248,41 +258,31 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 4,
-    title: "React E-Commerce Website",
-    description:
-      "Building an E-Commerce Website using React and external APIs ",
-    image: ecommerceLogo,
-    tags: ["React JS", "JavaScript", "HTML", "CSS", "Netlify", "API", "GitHub"],
-    github: "https://github.com/OmkarYelsange/React-Project-E-Commerce-Website",
-    webapp: "https://react-e-commerce-webapp.netlify.app/",
-  },
-  {
     id: 5,
     title: "Portfolio Website",
     description: "My Portfolio Website ",
     image: portfolio,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "Vercel", "GitHub"],
     github: "https://github.com/OmkarYelsange/Portfolio",
-    webapp: "",
+    webapp: "https://omkaryelsange.vercel.app/",
   },
-  {
-    id: 6,
-    title: "AI ChatBot WebApp",
-    description: "A full-stack Real time chatting app",
-    image: aichatbot,
-    tags: [
-      "Python",
-      "Google API",
-      "React JS",
-      "Flask",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    github: "https://github.com/OmkarYelsange/AI-ChatBot",
-    webapp: "",
-  },
+  // {
+  //   id: 6,
+  //   title: "AI ChatBot WebApp",
+  //   description: "A full-stack Real time chatting app",
+  //   image: aichatbot,
+  //   tags: [
+  //     "Python",
+  //     "Google API",
+  //     "React JS",
+  //     "Flask",
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //   ],
+  //   github: "https://github.com/OmkarYelsange/AI-ChatBot",
+  //   webapp: "",
+  // },
   {
     id: 7,
     title: "YouTube Video & Audio Downloader",
